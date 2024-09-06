@@ -12,7 +12,7 @@ if a=="Y":
         Total_Marks+=5
 
     else:
-        print('Wrong, Your are rewarded 0 pints')
+        print('Wrong, Your are rewarded 0 points')
 
     b=input("Do you want to continue  y/n ")
     if b=="y":
@@ -24,7 +24,7 @@ if a=="Y":
             print("You are rewarded 5 scores")
             Total_Marks += 5
         else:
-            print('Wrong, Your are rewarded 0 pints')
+            print('Wrong, Your are rewarded 0 points')
         b = input("Do you want to continue  y/n ").upper()
         if b == "Y":
             print("Here is your next question")
